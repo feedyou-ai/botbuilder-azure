@@ -1,21 +1,18 @@
 {
   "name": "botbuilder-azure",
-  "version": "3.1.0",
-  "description": "Bot Builder SDK Azure Extensions",
+  "version": "3.1.0-1",
+  "description": "Fork of https://github.com/microsoft/BotBuilder-V3/tree/main/Azure/Node",
   "keywords": [
     "botbuilder",
     "bots",
     "chatbots",
     "azure"
   ],
-  "author": "Microsoft Corp.",
+  "author": "Me",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Microsoft/BotBuilder-Azure/issues"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/BotBuilder-Azure.git"
+    "url": "https://github.com/feedyou-ai/botbuilder-azure"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,7 +23,7 @@
     "@types/tedious": "^1.8.31",
     "async": "^2.1.2",
     "azure-storage": "^2.10.3",
-    "botbuilder": "^3.30.0",
+    "botbuilder": "github:feedyou-ai/botbuilder",
     "documentdb": "^1.13.0",
     "promise": "^7.1.1",
     "tedious": "^2.0.0"
